@@ -32,4 +32,7 @@ def romanToInt(s: str) -> int:
 
 # Tests
 assert romanToInt("III") == 3
-assert romanToInt("IV") == 4        
+assert romanToInt("IV") == 4
+assert romanToInt("IX") == 9
+assert romanToInt("LVIII") == 58
+assert romanToInt("MCMXCIV") == 1994 
