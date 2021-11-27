@@ -1,4 +1,4 @@
-# Solution
+# Algorithm
 def binarySearch(list, item):
     low = 0
     high = len(list) - 1
@@ -21,3 +21,4 @@ def binarySearch(list, item):
 assert(binarySearch([], 2) == None)
 assert(binarySearch([3], 3) == 0)
 assert(binarySearch([1, 2, 3], 3) == 2)
+print("Done.")
